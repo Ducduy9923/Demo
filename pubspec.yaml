@@ -1,0 +1,31 @@
+name: caculator
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: ^3.5.3
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_svg: 1.1.6
+  flutter_bloc: 8.1.6
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family : SF-Pro-Display
+      fonts:
+        - asset : assets/fonts/SF-Pro-Display/SF-Pro-Display-Medium.otf
+          weight: 500
+        - asset : assets/fonts/SF-Pro-Display/SF-Pro-Display-Semibold.otf
+          weight: 600
+        - asset : assets/fonts/SF-Pro-Display/SF-Pro-Display-Regular.otf
+          weight: 400
+    
+  
